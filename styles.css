@@ -2,6 +2,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+    color: rgb(240, 80, 80);
 }
 
 .image {
@@ -15,4 +16,35 @@
 body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.list-inline li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-left: 28%;
+    padding-bottom: 20px;
+}
+
+
+.title-sfr, .title-oo, .title-p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sfr {
+    background-color: rgb(202, 114, 78);
+    color: rgb(80, 240, 226);
+}
+
+.oo {
+    background-color: lightblue;
+    color: rgb(206, 68, 68);
+}
+
+.p {
+    background-color: wheat;
+    color: rgb(67, 141, 106);
 }
