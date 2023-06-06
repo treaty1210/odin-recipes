@@ -3,14 +3,14 @@
     font-weight: bold;
     font-size: 50px;
     color: rgb(240, 80, 80);
+    margin: 33.5px auto 0;
 }
 
 .image {
     display:block;
     width: auto;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 33.5px auto 0;
 }
 
 body {
@@ -20,11 +20,14 @@ body {
 }
 
 .list-inline li {
-    display: inline-block;
-    width: 33%;
+    display: block;
     text-align: center;
-    margin-left: 28%;
     padding-bottom: 20px;
+}
+
+ul {
+    padding-inline-start: 0;
+    padding-right: 35px;
 }
 
 
